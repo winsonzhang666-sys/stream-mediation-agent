@@ -1,0 +1,10 @@
+*.bak
+*.safetensors
+*.jsonl
+checkpoint-*/
+merged_model/
+runs/
+__pycache__/
+
+# 放行发布用的 v4g adapter(经 Git LFS 分发,见 .gitattributes)
+!adapters/v4g/adapter_model.safetensors
